@@ -7,12 +7,12 @@ body {
     margin: 0 auto;
     padding: 0%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:whitesmoke;
 }
 .container1 {
     width: 100%;
     height: 100vh;
-    float: left ;
+    float: left;
+    background-color:whitesmoke;
 }
 .navbar {
     width: 100%;
@@ -113,7 +113,7 @@ body {
 }
 .container2 {
     width: 100%;
-    height: 100vh;
+    max-height: 800px;
     float: left;
 }
 .list1 {
@@ -211,4 +211,90 @@ body {
     position: relative;
     bottom: 50px;
     margin-left: 65px;
+}
+.chef img {
+    width: 400px;
+    height: auto;
+}
+.chef {
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.message {
+    width: 500px;
+    min-height: 300px;
+    background-color: transparent;
+    float: left;
+    margin-left: 600px;
+    position: relative;
+    bottom: 380px;
+}
+.container3 {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color:whitesmoke;
+    position: relative;
+    bottom: 210px;
+}
+.mealtop img {
+    width: 150px;
+    height: auto;
+}
+.mealtop {
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+.recipes {
+    width: 160px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    transition: 0.5s;
+    cursor: pointer; 
+    transform: scale(1);
+}
+.recipes span {
+    font-size: 17px;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+    top: 13px;
+}
+.recipes:hover {
+    transform: scale(1.1);
+}
+.menulist ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+.menulist ul li a {
+    color: darkslategray;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.menulist {
+    margin-left: 450px;
+}
+.menulist ul li a:hover {
+    color: orange;
+}
+.menu1 {
+    width: 40%;
+    height: 240px;
+    float: left;
+    background-color: transparent;
+    margin-left: 140px; 
+}
+.menu2 {
+    width: 40%;
+    height: 240px;
+    float: left;
+    background-color: transparent;
+
 }
