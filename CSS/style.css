@@ -245,6 +245,15 @@ body {
     text-align: center;
     position: relative;
     bottom: 80px;
+    animation: rot 10s linear infinite;
+}
+@keyframes rot {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
 }
 .recipes {
     width: 160px;
